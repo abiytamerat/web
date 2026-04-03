@@ -1,2 +1,217 @@
 # web
 NAT Business Suite
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NAT - Business Solutions by Miracle Sun LLC</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <div class="logo">
+                <span class="logo-n">N</span>
+                <span class="logo-a">A</span>
+                <span class="logo-t">T</span>
+                <span class="logo-text">Business Suite</span>
+            </div>
+            <ul class="nav-menu">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#solutions">Solutions</a></li>
+                <li><a href="#pricing">Pricing</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="nav-buttons">
+                <a href="#demo" class="btn btn-primary">Get Demo</a>
+                <a href="#login" class="btn btn-outline">Login</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-container">
+            <div class="hero-content">
+                <h1>Complete Business Management <span class="highlight">Solution</span></h1>
+                <p class="hero-subtitle">NAT by Miracle Sun LLC - Your All-in-One Business Platform for Desktop, Android, and iOS</p>
+                <div class="hero-buttons">
+                    <a href="#features" class="btn btn-large btn-primary">Explore Features</a>
+                    <a href="#demo" class="btn btn-large btn-outline">Watch Demo</a>
+                </div>
+                <div class="hero-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">15+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">1000+</span>
+                        <span class="stat-label">Happy Clients</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">50+</span>
+                        <span class="stat-label">Reports</span>
+                    </div>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="images/dashboard-preview.png" alt="NAT Dashboard Preview" id="hero-dashboard">
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section id="features" class="features">
+        <div class="container">
+            <h2 class="section-title">Powerful <span class="highlight">Features</span></h2>
+            <p class="section-subtitle">Everything you need to run your business efficiently</p>
+            
+            <div class="features-grid" id="features-grid">
+                <!-- Features will be loaded via JavaScript -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Solutions Section -->
+    <section id="solutions" class="solutions">
+        <div class="container">
+            <h2 class="section-title">Business <span class="highlight">Solutions</span></h2>
+            <div class="solutions-grid">
+                <div class="solution-card">
+                    <i class="fas fa-store solution-icon"></i>
+                    <h3>Sales & Purchase</h3>
+                    <p>Complete sales order management, invoicing, and purchase tracking</p>
+                </div>
+                <div class="solution-card">
+                    <i class="fas fa-university solution-icon"></i>
+                    <h3>Banking Integration</h3>
+                    <p>Direct bank integration for payments, reconciliation, and check writing</p>
+                </div>
+                <div class="solution-card">
+                    <i class="fas fa-users solution-icon"></i>
+                    <h3>Employee Management</h3>
+                    <p>Payroll, attendance, leave tracking, and employee performance</p>
+                </div>
+                <div class="solution-card">
+                    <i class="fas fa-industry solution-icon"></i>
+                    <h3>Production Management</h3>
+                    <p>Job costing, phase management, and production planning</p>
+                </div>
+                <div class="solution-card">
+                    <i class="fas fa-boxes solution-icon"></i>
+                    <h3>Inventory Control</h3>
+                    <p>Stock status, reorder points, and inventory valuation</p>
+                </div>
+                <div class="solution-card">
+                    <i class="fas fa-chart-line solution-icon"></i>
+                    <h3>Financial Reports</h3>
+                    <p>Aged receivables, payables, ratios, and key indicators</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section class="services">
+        <div class="container">
+            <h2 class="section-title">Additional <span class="highlight">Services</span></h2>
+            <div class="services-grid">
+                <div class="service-card">
+                    <i class="fas fa-file-invoice service-icon"></i>
+                    <h3>Tax Registration</h3>
+                    <p>Professional tax registration and reporting services</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-globe service-icon"></i>
+                    <h3>Website Creation</h3>
+                    <p>Custom business websites and e-commerce solutions</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-trademark service-icon"></i>
+                    <h3>Product Registration</h3>
+                    <p>Market registration and product listing services</p>
+                </div>
+                <div class="service-card">
+                    <i class="fas fa-chart-pie service-icon"></i>
+                    <h3>Auditing Services</h3>
+                    <p>Professional company auditing and compliance</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <div class="container">
+            <h2 class="section-title">Get In <span class="highlight">Touch</span></h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <h3>Miracle Sun LLC</h3>
+                    <p><i class="fas fa-phone"></i> +251-XXX-XXXXXX</p>
+                    <p><i class="fas fa-envelope"></i> support@miraclesun.com</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Addis Ababa, Ethiopia</p>
+                    <div class="social-links">
+                        <a href="#"><i class="fab fa-facebook"></i></a>
+                        <a href="#"><i class="fab fa-twitter"></i></a>
+                        <a href="#"><i class="fab fa-linkedin"></i></a>
+                        <a href="#"><i class="fab fa-youtube"></i></a>
+                    </div>
+                </div>
+                <form class="contact-form" id="contactForm">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <input type="text" placeholder="Company Name">
+                    <select>
+                        <option>Interested In</option>
+                        <option>NAT Software</option>
+                        <option>Tax Registration</option>
+                        <option>Website Creation</option>
+                        <option>Auditing Services</option>
+                    </select>
+                    <textarea placeholder="Your Message" rows="4"></textarea>
+                    <button type="submit" class="btn btn-primary btn-block">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-section">
+                    <h4>NAT Business Suite</h4>
+                    <p>Empowering businesses with comprehensive management solutions across all platforms.</p>
+                </div>
+                <div class="footer-section">
+                    <h4>Quick Links</h4>
+                    <ul>
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#features">Features</a></li>
+                        <li><a href="#solutions">Solutions</a></li>
+                        <li><a href="#contact">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-section">
+                    <h4>Support</h4>
+                    <ul>
+                        <li><a href="#">Documentation</a></li>
+                        <li><a href="#">FAQs</a></li>
+                        <li><a href="#">Training</a></li>
+                        <li><a href="#">Community</a></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; 2026 Miracle Sun LLC. All rights reserved. NAT is a trademark of Miracle Sun LLC.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
